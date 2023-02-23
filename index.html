@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Orly's Cakes</title>
-    <script src='src.js'></script>
+    <head>
+        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Orly's Cake Collection</title>
+        <meta name="description" content="The right cake for you">
+        <meta property="og:url" content='' />
+        <meta property="og:description" content='The right cake for you' />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Orly's Cake Collection">
+        <meta property="og:image" content="https://orlys-cakes.netlify.app/og-image-resized.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://orlys-cakes.netlify.app">
+        <meta name="twitter:title" content="Orly's Cake Collection ">
+        <meta name="twitter:description" content="The right cake for you">
+        <meta name="twitter:image" content="https://orlys-cakes.netlify.app/og-image-resized.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/jpg" href="fav.png">
+        <base target="_blank">
+        
+    </head>
+    <script src='./src.js'></script>
 
 </head>
 <body>
@@ -16,12 +33,10 @@
             <h1>Orly's Cake Collection</h1>
         </div>
     <div class="search-container">
-        <!-- <label for="searchbox" class="is-size-5">Search</label> -->
-        <input class="input" type="search" id = "searchbox" placeholder = "Search ingredients...">
-
+        <input class="input-ingredient" type="search" id = "searchbox" placeholder = "Search ingredients..." onkeyup="liveSearch()">
     </div>
 
-        <div class="row">
+        <div class="row" id ="myCakes">
 
             <div class="card">
                 <div class="card-image">
@@ -88,21 +103,54 @@
                 </div>
                 <div class="card-body">
                     <p>
-                        Milo playing in the park as a place holder
+                        Cinnamon rolls with some delicious frosting
                     </p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-image">
-                    <h1>Pistachio</h1>
+                    <img src="cakes/3.jpg" alt="">
+                </div>
+                <div class="card-title">
+                    <h2>Lemon Marange</h1>
                 </div>
                 <div class="card-body">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iure provident sit fugiat molestiae tenetur repudiandae nam nihil, aliquid quae unde qui, cumque tempora a!
+                        Choclate peanut butter cake, covered with sprinkles
                     </p>
                 </div>
             </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="cakes/XX_2.jpg" alt="">
+                </div>
+                <div class="card-title">
+                    <h2>Lemon Marange</h1>
+                </div>
+                <div class="card-body">
+                    <p>
+                        Caramel toffee with chocolate sprinkles tart
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="cakes/2.jpg" alt="">
+                </div>
+                <div class="card-title">
+                    <h2>Lemon Marange</h1>
+                </div>
+                <div class="card-body">
+                    <p>
+                        Peanut butter banana cake, covered with jelly beans and coconut
+                    </p>
+                </div>
+            </div>
+
+            
 
         </div>
 
