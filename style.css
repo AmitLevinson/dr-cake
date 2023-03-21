@@ -46,7 +46,6 @@ input[type=search] {
     box-sizing: border-box;
 }
 
-
 .input-ingredient:focus {
     outline: none;
 }
@@ -106,6 +105,14 @@ img {
     .input-ingredient {
         width: 60%;
     }
+
+    .search-container {
+        position: sticky;
+        background: #fff2f4;
+        top: 1px;
+        z-index: 1;
+        padding-bottom: 1px ;
+    }
 }
 
 @media screen and (max-width:620px) {
@@ -113,6 +120,14 @@ img {
         display: flex;
         justify-content: space-around;
 
+    }
+
+    .search-container {
+        position: sticky;
+        background: #fff2f4;
+        top: 2px;
+        z-index: 1;
+        padding-bottom: 1px ;
     }
 
     .container {
